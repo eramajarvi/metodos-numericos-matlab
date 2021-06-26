@@ -52,15 +52,6 @@ clc;
 axes(handles.LogoUIS);
 imshow('icons\UISHorizontal.png');
 
-axes(handles.EcuacionesnolinealesLOGO);
-imshow('icons\EcuacionesNoLineales.png');
-axes(handles.SitemasecuacionesLOGO);
-imshow('icons\EcuacionesLineales.png');
-axes(handles.InterpolacionLOGO);
-imshow('icons\Interpolacion.png');
-axes(handles.IntegralesderivadasLOGO);
-imshow('icons\Integracion.png');
-
 % Choose default command line output for MetodosNumericosMainAPP
 handles.output = hObject;
 

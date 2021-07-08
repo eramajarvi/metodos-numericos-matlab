@@ -22,7 +22,7 @@ function varargout = EcuacionesNoLinealesAPP(varargin)
 
 % Edit the above text to modify the response to help EcuacionesNoLinealesAPP
 
-% Last Modified by GUIDE v2.5 25-Jun-2021 18:54:26
+% Last Modified by GUIDE v2.5 29-Jun-2021 13:09:53
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -59,15 +59,6 @@ set(axesChild, 'buttonDownFcn', @irAtras);
 % Tomado de:
 % https://itectec.com/matlab/matlab-callback-of-axes-in-figure-not-being-called/
 % ------------------------------------------
-
-axes(handles.logoUIS);
-imshow('icons\UISHorizontal.png');
-axes(handles.iconoBiseccion);
-%imshow('icons\iconoMetodoBiseccion.png');
-axes(handles.iconoNewton);
-%imshow('icons\iconoMetodoNewton.png');
-axes(handles.iconoPunto);
-%imshow('icons\iconoMetodoPuntoFijo.png');
 
 % Choose default command line output for EcuacionesNoLinealesAPP
 handles.output = hObject;
@@ -128,5 +119,12 @@ MetodosNumericosMainAPP;
 % --- Executes on mouse press over axes background.
 function botonAtrasImagen_ButtonDownFcn(hObject, eventdata, handles)
 % hObject    handle to botonAtrasImagen (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --- Executes on button press in pushbutton10.
+function pushbutton10_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton10 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
